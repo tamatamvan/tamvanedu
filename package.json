@@ -6,7 +6,8 @@
   "keywords": "express, scaffolding, es6, generator, rest, api",
   "scripts": {
     "start": "node ./bin/www",
-    "dev": "nodemon ./bin/www"
+    "dev": "nodemon ./bin/www",
+    "test": "mocha --exit"
   },
   "dependencies": {
     "body-parser": "~1.15.1",
